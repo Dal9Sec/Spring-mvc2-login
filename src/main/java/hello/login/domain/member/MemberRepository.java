@@ -24,7 +24,8 @@ public class MemberRepository {
     }
 
     public Optional<Member> findByLoginId(String loginId) {
-        /*List<Member> all = findAll();
+        List<Member> all = findAll();
+        /*
         for (Member m : all) {
             if(m.getLoginId().equals(loginId)) {
                 return Optional.of(m);
